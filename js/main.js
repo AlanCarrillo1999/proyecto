@@ -26,10 +26,10 @@ Author: GrayGrids
         var logo = document.querySelector('.navbar-brand img')
         if (window.pageYOffset > sticky) {
           header_navbar.classList.add("sticky");
-          logo.src = 'images/logo/pink-ink.jpg';
+          logo.src = 'images/logo/'Mi proyecto.png;
         } else {
           header_navbar.classList.remove("sticky");
-          logo.src = 'images/logo/pink-ink.jpg';
+          logo.src = 'images/logo/Mi proyecto.png';
         }
 
         // show or hide the back-top-top button
